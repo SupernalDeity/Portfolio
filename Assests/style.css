@@ -2,31 +2,32 @@ html * {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
 }
 
 .header {
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
     background-color: gray;
     justify-content: space-between;
-    flex-direction: column;
     align-items: center;
 }
 
 h1 {
-    padding: 15px;
+    padding: 10px;
     font-size: 35px;
     font-style: italic;
 } 
 
 nav {
     padding: 5px;
+    text-align: right;
 }
 
 nav a {
+    padding: 0px 10px;
     color: aquamarine;
     text-decoration: underline;
-    text-align: center;
 }
 
 a:hover {
@@ -40,12 +41,31 @@ main {
     text-align: center;
 }
 
+img {
+    margin: 15px 0px 0px;
+}
+
+#about img {
+    max-width: 200px;
+}
+
 h2 {
     margin: 40px 0px 0px;
 }
 
-img {
-    margin: 15px 0px 0px;
+#work div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+article {
+    width: 50%;
+    padding: 10px;
+}
+
+article:first-of-type {
+    width: 100%;
 }
 
 footer {
@@ -61,7 +81,15 @@ footer a {
     padding: 5px;
 }
 
-
+@media screen and (max-width: 576px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    } 
+    nav {
+        text-align: center;
+    }      
+}
 
 
 
