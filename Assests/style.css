@@ -37,23 +37,28 @@ main {
     display: flex;
     flex-direction: column;
     padding: 20px;
-}
-
-#about {
     text-align: center;
 }
 
 h2 {
-    margin: 10px;
+    margin: 40px 0px 0px;
 }
 
 img {
-    margin: 10px 0px 0px;
+    margin: 15px 0px 0px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer h2 {
+   text-align: center;
+   padding-bottom: 15px;
 }
 
 footer a {
-    padding: 25px;
-    text-align: center;
+    padding: 5px;
 }
 
 
