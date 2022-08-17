@@ -35,9 +35,10 @@ a:hover {
 }
 
 main {
+    max-width: 796px;
+    margin: auto;
     display: flex;
     flex-direction: column;
-    padding: 20px;
     text-align: center;
 }
 
@@ -60,7 +61,7 @@ h2 {
 }
 
 article {
-    width: 50%;
+    width: calc(50% - 20px);
     padding: 10px;
 }
 
@@ -89,7 +90,7 @@ footer a {
     nav {
         text-align: center;
     }      
+    article {
+        width: 100%;
+    }
 }
-
-
-
