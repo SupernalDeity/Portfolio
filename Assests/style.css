@@ -8,9 +8,13 @@ html * {
 .header {
     display: flex;
     flex-wrap: wrap;
-    background-color: gray;
+    background-color: #4f6d7a;
     justify-content: space-between;
     align-items: center;
+}
+
+body {
+    background-color: #c0d6df;
 }
 
 h1 {
